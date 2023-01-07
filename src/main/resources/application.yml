@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:3306/security
+    username: root
+    password: Govi9617*
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+      propreries:
+        hibernate:
+          format-sql: true
+  application:
+    name: SECURITY-SERVICE
